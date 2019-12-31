@@ -1,0 +1,6 @@
+include ':app'
+rootProject.name = 'lake_sale'
+    // [FLUTTER_CONFIG_BEGIN]
+  setBinding(new Binding([gradle: this])) 
+  evaluate(new File('fbinclude_flutter.groovy')) 
+  // [FLUTTER_CONFIG_END]

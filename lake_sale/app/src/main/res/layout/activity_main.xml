@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btnOpenNativePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开Native页面" />
+
+    <Button
+        android:id="@+id/btnOpenFlutterPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开Flutter页面" />
+
+    <Button
+        android:id="@+id/btnOpenFlutterDemoPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开FlutterDemo页面" />
+
+    <Button
+        android:id="@+id/btnOpenFlutterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开FlutterFragment" />
+
+    <Button
+        android:id="@+id/btnOpenFlutterFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开FlutterFirst" />
+
+    <Button
+        android:id="@+id/btnOpenFlutterSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开FlutterSecond" />
+
+    <Button
+        android:id="@+id/btnOpenFlutterTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开FlutterTab" />
+</LinearLayout>
