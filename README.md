@@ -1,0 +1,2 @@
+# FlutterHybrid-FlutterBoot
+使用flutter-boot脚手架搭建的flutter混合项目demo
