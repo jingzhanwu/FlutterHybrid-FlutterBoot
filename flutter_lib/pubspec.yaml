@@ -7,11 +7,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
+  flutter_boost: 0.1.61
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_boost: ^0.1.64
 flutter:
   uses-material-design: true
   module:

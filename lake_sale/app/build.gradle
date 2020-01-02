@@ -3,6 +3,11 @@ def flutterPluginVersion = 'managed'
 apply plugin: 'com.android.application'
 
 android {
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
     compileSdkVersion rootProject.compileVersion
     defaultConfig {
         applicationId "com.lake.sale"
@@ -18,22 +23,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
-    compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
-    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     if (gradle.isDetectedFlutterDir) {
         implementation project(':flutter')
     } else {
         // 换成自己的远程flutter产物 
     }
+    //[FLUTTER_MARKET_START]
     implementation project(path: ':flutter_boost')
+    //[FLUTTER_MARKET_END]
 
     implementation rootProject.dep.supportAppcompat
     implementation rootProject.dep.supportDesign
@@ -43,3 +44,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+

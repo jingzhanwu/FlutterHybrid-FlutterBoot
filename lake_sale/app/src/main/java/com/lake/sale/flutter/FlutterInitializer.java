@@ -3,12 +3,12 @@ package com.lake.sale.flutter;
 import android.app.Application;
 import android.util.Log;
 
+
 import com.idlefish.flutterboost.FlutterBoost;
 import com.idlefish.flutterboost.Platform;
 import com.idlefish.flutterboost.Utils;
 import com.idlefish.flutterboost.interfaces.INativeRouter;
 import com.lake.sale.TextPlatformViewPlugin;
-
 
 import io.flutter.app.FlutterApplication;
 import io.flutter.embedding.android.FlutterView;
@@ -36,7 +36,6 @@ public class FlutterInitializer {
             String assembleUrl = Utils.assembleUrl(url, urlParams);
             PageRouter.openPageByUrl(context, assembleUrl, urlParams);
         };
-
 
         //boost生命周期监控
         FlutterBoost.BoostLifecycleListener boostLifecycleListener = new FlutterBoost.BoostLifecycleListener() {

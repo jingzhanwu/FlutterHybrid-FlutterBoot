@@ -42,12 +42,12 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_boost:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: flutter_boost
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.1.64"
+    version: "0.1.61"
   flutter_test:
     dependency: "direct dev"
     description: flutter
